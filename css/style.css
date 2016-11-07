@@ -1,0 +1,73 @@
+body {
+  background: url('../img/02_bgimg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Electrolize', Helvetica;
+  height: 100vh;
+  width: 100vw;
+  color: #3D3D3D;
+  overflow: hidden;
+  src: url(../fonts/DancingScript-Bold.ttf)
+       url(../fonts/SwankyandMooMoo.ttf);
+}
+
+.container {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  /*top: 3%;
+  left: 3%;*/
+  background-color: rgba(255, 255, 255, 0.8);
+  #border: 3px dashed #fff;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'DancingScript', bold;
+}
+
+.button {
+  border: none;
+  display: block;
+  font-family: 'DancingScript', bold;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color : #9279AA;
+  border-radius: 20px;
+  box-shadow: 0 6px #726082;
+  color: #fff;
+  padding: 10px;
+  width: 70%;
+}
+.button:hover {
+  background: #856F9B;
+  box-shadow: 0 6px #726082;
+  transition: all 0.1s ease-in;
+}
+.button:active {
+  transform: translateY(4px);
+  border-bottom-width: 2px;
+  box-shadow: none;
+}
+
+.button:after, .button:focus {
+  outline: none;
+}
+
+.divider {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.quoteDisplay {
+  padding: 20px 10px 10px 10px;
+  font-size: 1.3em;
+  text-align: center;
+  font-family: 'Swanky and Moo Moo', cursive;
+
+}
