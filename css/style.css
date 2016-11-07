@@ -64,10 +64,15 @@ h1 {
   padding-top: 20px;
 }
 
+.line {
+  width: 100%;
+  border: 1px solid #B7B7B7;
+  display: none;
+}
+
 .quoteDisplay {
   padding: 20px 10px 10px 10px;
   font-size: 1.3em;
   text-align: center;
   font-family: 'Swanky and Moo Moo', cursive;
-
 }

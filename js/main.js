@@ -4,7 +4,9 @@ var randomNumber = Math.floor(Math.random());
 function newQuote(){
   //quotes.legnth method always gets the current length of the array
   var randomNumber = Math.floor(Math.random() * (quotes.length));
-  document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+  var line = document.getElementById('line');
+  var quoteDisplay = document.getElementById('quoteDisplay');
+  quoteDisplay.innerHTML = quotes[randomNumber];
 }
 
 var quotes = [
