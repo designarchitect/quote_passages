@@ -11,6 +11,7 @@ function newQuote(){
 
 var quotes = [
   '"Love will come find you, just to remind you of who you are."<br><b>- Alicia Keys -</b>',
+  '"Your focus determines your reality."<br><b>- Qui-Gon Jinn -</b>',
   '"And once the storm is over, you won’t remember how you made it through, how you managed to survive. You won’t even be sure, whether the storm is really over. But one thing is certain. When you come out of the storm, you won’t be the same person who walked in. That’s what this storm’s all about."<br><b>- Haruki Murakami -</b>',
   '"We can each define ambition and progress for ourselves. The goal is to work toward a world where expectations are not set by the stereotypes that hold us back, but by our personal passion, talents and interests."<br><b>- Sheryl Sandberg -</b>',
   '"Success is about dedication. You may not be where you want to be or do what you want to do when you\'re on the journey. But you\'ve got to be willing to have vision and foresight that leads you to an incredible end."<br><b>- Usher -</b>',
